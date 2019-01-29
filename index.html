@@ -92,12 +92,22 @@
 </ul>
 <h3 id="三分钟急速github"><a href="#三分钟急速github" class="headerlink" title="三分钟急速github"></a>三分钟急速github</h3><blockquote>
 <ul>
-<li>创建仓库，新建一个名为username.github.io的仓库<br>$ git init E：//文件夹（自定义路径）   #初始化，并创建 .git目录<br>注册的邮箱一定要验证<br>一个github账户只能创建一个可以直接使用域名访问的仓库<br>网站所有代码,都是放在这个仓库<br>默认的 xxx.github.io 来访问,绑定域名可以解析CNAME记录下xxx.github.io，然后到你的github项目根目录新建一个名为CNAME的文件（无后缀），<br> 里面填写你的域名，找到你的仓库设置中绑定即可，<br>配置使用的git命令如下：<br><em>$git config
-</em>/etc/gitconfig<br><em>–system
-</em>~/.gitconfig<br><em>~/.config/git/config   
-</em>–global<br>#无论在系统做任何事，Git都会使用</li>
+<li>创建仓库，新建一个名为username.github.io的仓库<br>$ git init E：//文件夹（自定义路径）   #初始化，并创建 .git目录<br>注册的邮箱一定要验证<br>一个github账户只能创建一个可以直接使用域名访问的仓库<br>网站所有代码,都是放在这个仓库<br>默认的 xxx.github.io 来访问,绑定域名可以解析CNAME记录下xxx.github.io，然后到你的github项目根目录新建一个名为CNAME的文件（无后缀），<br> 里面填写你的域名，找到你的仓库设置中绑定即可，<br>配置使用的git命令如下：<br>*$git config</li>
 </ul>
 </blockquote>
+<ul>
+<li><p>/etc/gitconfig  </p>
+</li>
+<li><p>–system</p>
+</li>
+<li><p>~/.gitconfig  </p>
+</li>
+<li><p>~/.config/git/config  </p>
+</li>
+<li><p>–global</p>
+</li>
+</ul>
+<p>#无论在系统做任何事，Git都会使用</p>
 <p>$git config –global user.name “kong”<br>$git config –global user.email kong@qq.com</p>
 <p>$git config –global core.editor vim</p>
 <p>$git config –list</p>
@@ -128,16 +138,16 @@
 <p>hexo version  #查看Hexo的版本</p>
 <blockquote>
 <ul>
-<li>提交代码，上传到github<br>配置_config.yml中有关deploy的部分：<br><em>deploy:
-</em>type: git<br><em>repository: git@github.com:username/username.github.io.git
-</em>branch: master<br>npm install hexo-deployer-git –save 提交要使用<br>配置git config<br>$git config –global user.name “xxxx” 用户名<br>$git config –global user.email xxx@xxx.com 邮箱<br>$ commit最后提交，就可以访问到博客了<br>##第一次使用md格式,页面排版有点水</li>
+<li>提交代码，上传到github<br>配置_config.yml中有关deploy的部分：</li>
+<li>deploy:<br>**repository: git@github.com:username/username.github.io.git</li>
+<li>branch: master<br>npm install hexo-deployer-git –save 提交要使用<br>配置git config<br>$git config –global user.name “xxxx” 用户名<br>$git config –global user.email xxx@xxx.com 邮箱<br>$ commit最后提交，就可以访问到博客了<br>##第一次使用md格式,页面排版有点水</li>
 </ul>
 </blockquote>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://python1.cn/2019/01/29/GitHub博客搭建/" data-id="cjrgptnfy0000k08llyo79w3g" class="article-share-link">Share</a>
+      <a data-url="https://python1.cn/2019/01/29/GitHub博客搭建/" data-id="cjrhc77ex00005k8lxfp0st5x" class="article-share-link">Share</a>
       
       
     </footer>
